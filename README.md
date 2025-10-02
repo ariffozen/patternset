@@ -23,6 +23,12 @@ python app.py
 Uygulama varsayılan olarak `http://localhost:8082` adresinde çalışır. `FLASK_PORT` ortam değişkeni ile portu değiştirebilirsiniz.
 
 ## Docker Kullanımı
+### Hazır İmajı Çekme
+```bash
+docker pull frozencookie/patternset:latest
+```
+İmaj Docker Hub üzerinden `frozencookie/patternset` deposunda tutulur; en son sürüme erişmek için `latest` etiketini kullanabilirsiniz.
+
 ### İnşa Etme
 ```bash
 docker build -t patset-app .
